@@ -1,6 +1,6 @@
 # Log-SSH-Session
 
-A simple script to log and save an entire SSH session on Linux systems
+A simple script to log and save an entire SSH session (with the date) on Linux systems
 
 ## Requirements
 

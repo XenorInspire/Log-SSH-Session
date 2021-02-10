@@ -18,5 +18,7 @@ then
 else
     connect $1 $2 $3
     mv screenlog.0 $3_session
-    echo "=========================END=========================" >> $3_session
+    echo "========================START_SESSION========================" | cat - $3_session > temp && mv temp $3_session
+    echo "=========================END_SESSION=========================" >> $3_session
+    date >> $3_session
 fi
