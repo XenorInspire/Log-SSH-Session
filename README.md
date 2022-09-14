@@ -11,7 +11,7 @@ apt install ssh screen -y
 ```
 <i>For Debian distributions or</i>
 ```
-yum install ssh screen -y
+dnf install ssh screen -y
 ```
 <i>For RedHat ones</i>
 
